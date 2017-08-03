@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(images/background.jpg) repeat;
+}
+.wrap{
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+}
+.form-for-download div img{
+    width: 100%;
+}
+header{
+    height: 96px;
+    width: 800px;
+    background: url(images/masthead.png);
+    padding: 12px 10px 0 90px;
+}
+header a img{
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
+.logo-h{
+    float: left;
+}
+.logo-h h1 a span{
+    letter-spacing: -1.1px;
+    text-transform: uppercase;
+}
+.logo-h h1{
+    letter-spacing: -0.3px;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: MyriadProSemibold, sans-serif;
+    color: #1a2853;
+    margin: 0px 0px 4px;
+}
+.logo-h h2{
+    font-family: MyriadProSemibold, sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+    color: #7e8285;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+}
+.logo-h h1 a{
+    color: #1a2853;
+    text-decoration: none;
+}
+header .recl{
+    margin-right: 10px;
+    float: right;
+}
+.content{
+    font-family: Vernada, Arial, Helvetica, sans-serif;
+    padding: 13px 10px;
+    background: #fff;
+}
+.frst-line{
+    background: #DFE6EC;
+    padding: 10px 30px;
+    margin: 0 0 24px;
+}
+.frst-line .text-cont h1{
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.8px;
+    line-height: 26px;
+    color: #1a2853;
+    margin: 8px 0px 7px;
+}
+.frst-line .text-cont{
+    float: left;
+    width: 58%;
+}
+.frst-line .text-cont ul{
+    margin: 0px 0px 12px;
+    padding: 0px 0px 0px 20px;
+}
+.content .frst-line .text-cont ul li{
+    font-size: 13px;
+    line-height: 24px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    color: #1a2853;
+}
+.form-for-download{
+    position: absolute;
+    right: 15px;
+    height: 566px;
+    width: 310px;
+    margin: 33px 40px 30px 30px;
+    box-shadow: 0px 4px 20px 5px #C1BBBB;
+    background-color: #fff;
+}
+.form-for-download .data-input{
+    border: 5px solid #DFE6EC;
+    border-top: none;
+    padding: 7px 15px;
+}
+.scnd-line{
+    padding: 3px 30px;
+}
+.scnd-line .text-cont h4{
+    font-size: 13px;
+    letter-spacing: 1.4px;
+    margin-bottom: 4px;
+}
+.scnd-line h4{
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    margin-bottom: 18px;
+}
+.scnd-line .text-cont{
+    float: left;
+    width: 59%;
+    margin-bottom: 50px;
+}
+.scnd-line .text-cont ul{
+    margin: 0px 0px 12px;
+    padding: 0px 0px 0px 20px;
+}
+.scnd-line .text-cont ul li{
+    font-size: 13px;
+    line-height: 24px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    color: #1a2853;
+}
+.thrd-line{
+    padding: 20px 30px;
+    margin: 13px 0 0;
+    background-color: #DFE6EC;
+
+}
+.thrd-line p{
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    color: #1a2853;
+    margin: 0px 0px 12px 0px;
+}
+.thrd-line .p-left{
+    float: left;
+    width: 48%;
+    font-size: 12px;
+    line-height: 24px;
+}
+.thrd-line .p-right{
+    float: right;
+    width: 48%;
+    font-size: 12px;
+    line-height: 24px;
+}
+footer{
+    margin: 10px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    line-height: 22px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #DEE5EB;
+}
+footer a span{
+    text-transform: uppercase;
+}
+.call{
+    background-color: #CD1920;
+    color: #fff;
+    padding: 10px 0;
+    border-top: 1px solid #fff;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    margin: 0px 0px 12px 0px;
+}
+.call p{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 6px
+}
+.call h4{
+    font-size: 24px;
+    line-height: 30px;
+}
+.data-input p input{
+    width: 238px;
+    margin: 8px 0 1px;
+    height: 26px;
+    border-radius: 3px;
+    padding-left: 9px;
+    box-shadow: none;
+}
+.data-input p select{
+    width: 251px;
+    margin: 8px 0 1px;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 9px;
+    box-shadow: none;
+}
+.data-input .aft:after{
+    content: "*";
+    color: red;
+    margin-left: 5px;
+}
+.form-for-download button{
+    border: none;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 27px;
+    width: 250px;
+    height: 42px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(top, #2989d8 -1%,#207cca -1%,#207cca 0%,#2989d8 0%,#2989d8 9%,#1e5799 89%,#1e5799 89%,#1e5799 98%,#1e5799 100%,#207cca 100%,#1e5799 100%);
+    color: #fff;
+    font-weight: bold;
+}
